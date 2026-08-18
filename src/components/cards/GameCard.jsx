@@ -21,7 +21,7 @@ export const GameCard = ({ title, image, provider }) => (
 
       {/* Main Game Image */}
       <img
-        src={image}
+        src={typeof image === "string" ? image : image?.src}
         alt={title}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />

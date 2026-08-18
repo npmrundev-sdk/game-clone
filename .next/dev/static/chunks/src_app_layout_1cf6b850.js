@@ -1,0 +1,30 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/[root-of-the-server]__a3dce129._.css",
+  "static/chunks/node_modules_firebase_91551d80._.js",
+  "static/chunks/src_8ce95ef5._.js",
+  "static/chunks/node_modules_next_00359042._.js",
+  "static/chunks/node_modules_@firebase_auth_dist_esm_08381276._.js",
+  "static/chunks/node_modules_re2js_build_index_esm_ca5db158.js",
+  "static/chunks/node_modules_@firebase_firestore_dist_common-456515ba_esm_303834a7.js",
+  "static/chunks/node_modules_@firebase_firestore_dist_index_esm_a1a08845.js",
+  "static/chunks/node_modules_@firebase_firestore_dist_index_esm_af799df8.js",
+  "static/chunks/node_modules_@firebase_storage_dist_index_esm_00d833a2.js",
+  "static/chunks/node_modules_antd_es_62fbcc46._.js",
+  "static/chunks/node_modules_@ant-design_cssinjs_es_101b9f83._.js",
+  "static/chunks/node_modules_@rc-component_trigger_es_20355146._.js",
+  "static/chunks/node_modules_@rc-component_form_es_0210ce39._.js",
+  "static/chunks/node_modules_@rc-component_menu_es_07eaa388._.js",
+  "static/chunks/node_modules_@rc-component_select_es_ed3847c4._.js",
+  "static/chunks/node_modules_@reduxjs_toolkit_dist_1237515d._.js",
+  "static/chunks/node_modules_axios_lib_abd7c0de._.js",
+  "static/chunks/node_modules_react-icons_8cbef0bf._.js",
+  "static/chunks/node_modules_@firebase_9c318e7b._.js",
+  "static/chunks/node_modules_@rc-component_866e0271._.js",
+  "static/chunks/node_modules_@ant-design_1def57f9._.js",
+  "static/chunks/node_modules_socket_io-client_1fe1979b._.js",
+  "static/chunks/node_modules_1debe890._.js"
+],
+    source: "dynamic"
+});

@@ -1,0 +1,7 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/hgzy-game/win-go/page": "app/hgzy-game/win-go/page.js",
+  "/hot/page": "app/hot/page.js",
+  "/page": "app/page.js"
+}

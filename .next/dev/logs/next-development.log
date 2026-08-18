@@ -1,0 +1,139 @@
+[00:00:07.670] Server  WARN    ⚠ "Found lockfile missing swc dependencies," "patching..."
+[00:00:09.718] Server  LOG     ✓ Ready in 7.5s
+[00:00:15.998] Server  WARN    ⚠ Lockfile was successfully patched, please run "npm install" to ensure @next/swc dependencies are downloaded
+[00:00:27.360] Server  LOG     ○ Compiling / ...
+[00:00:36.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:39.041] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:00:40.637] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:40.637] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:40.637] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:41.399] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:00.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:01.051] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:01:04.851] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:04.851] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:04.852] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:05.040] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:24.583] Browser ERROR   Warning: [antd: Notification] `message` is deprecated. Please use `title` instead.
+[00:02:36.568] Server  LOG     ○ Compiling /hot ...
+[00:04:17.037] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:17.804] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
+-                           data-new-gr-c-s-check-loaded="14.1320.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:04:17.804] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:04:18.149] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:18.149] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:18.149] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:18.237] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.179] Server  LOG     ✓ Compiled in 1498ms
+[00:06:03.698] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:09:00.371] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:09:04.059] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:09:04.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:07.923] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":false,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:11:51.845] Server  LOG     ✓ Compiled in 1540ms
+[00:11:53.133] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:19.928] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:19.928] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:19.928] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:21.626] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
