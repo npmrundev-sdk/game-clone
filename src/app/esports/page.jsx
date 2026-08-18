@@ -1,44 +1,89 @@
+
+
 "use client";
-import React from "react";
+
+import React, { useRef } from "react";
+import Link from "next/link";
+import LiveGameCard from "@/components/cards/LiveGameCard";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { PageContainer } from "@/components/shared/PageContainer";
 
-const ESPORTS_PROVIDERS = [
-  { id: 1, name: "ILUSTRE ANALYTICS", image: "/ilustre.jpg" },
-  { id: 2, name: "TF GAMING", image: "/tfgaming.jpg" },
-];
+import img1 from "@/assets/live/img1.png";
+import img2 from "@/assets/live/img1.png";
+import img3 from "@/assets/live/img1.png";
+import img4 from "@/assets/live/img1.png";
 
 export default function page() {
+  const scrollRef = useRef(null);
+
+  // ✅ Fixed array + unique IDs
+  const games = [
+    { id: 1, title: "Lucky Sports", thumbnail: img1 },
+    { id: 2, title: "9wickets", thumbnail: img2 },
+    { id: 3, title: "BTI", thumbnail: img3 },
+    { id: 4, title: "AP Gaming", thumbnail: img4 },
+    { id: 5, title: "FB Sports", thumbnail: img2 },
+    { id: 6, title: "poly Sports", thumbnail: img1 },
+
+  ];
+
+  // 🔥 Scroll functions
+  const scrollLeft = () => {
+    scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
+  };
+
+  const scrollRight = () => {
+    scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
+  };
   return (
     <PageContainer title="ই-স্পোর্টস">
       {/* Container for the E-Sports cards matching the provided layout */}
-      <div className="flex flex-wrap gap-4 md:gap-6">
-        {ESPORTS_PROVIDERS.map((provider) => (
-          <div
-            key={provider.id}
-            className="group relative w-[180px] md:w-[220px] overflow-hidden rounded-xl border border-white/5 bg-[#002d2d] transition-all hover:border-[#33cccc]/50 shadow-lg"
-          >
-            {/* Image Section with hover zoom effect */}
-            <div className="aspect-[3/4] overflow-hidden relative">
-              <img
-                src={provider.image}
-                alt={provider.name}
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              {/* Bottom gradient overlay for text readability */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#001a1a] via-transparent to-transparent opacity-90" />
-            </div>
+      <div>
+        <div className="flex w-full justify-between items-center mb-4">
+          <h1 className="text-2xl font-bold">ই-স্পোর্টস</h1>
 
-            {/* Provider Title matching the CV666.COM style */}
-            <div className="absolute bottom-0 left-0 right-0 p-3 text-center">
-              <h3 className="text-xs md:text-sm font-bold text-[#ffcc00] uppercase tracking-wide">
-                {provider.name}
-              </h3>
-              <p className="text-[9px] md:text-[10px] text-gray-400 mt-1 font-medium tracking-widest">
-                E-SPORTS
-              </p>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/hot"
+              className="text-lg font-bold text-[#d4a017] hover:text-orange-400"
+            >
+              আরও দেখুন
+            </Link>
+
+            {/* Scroll Buttons */}
+            <div className="flex gap-2">
+              <button
+                onClick={scrollLeft}
+                className="p-2 bg-black/50 hover:bg-black rounded-full text-white"
+              >
+                <ChevronLeft />
+              </button>
+              <button
+                onClick={scrollRight}
+                className="p-2 bg-black/50 hover:bg-black rounded-full text-white"
+              >
+                <ChevronRight />
+              </button>
             </div>
           </div>
-        ))}
+        </div>
+
+
+        <div className="w-full overflow-hidden">
+          <div
+            ref={scrollRef}
+            className="flex gap-4 overflow-x-auto scroll-smooth no-scrollbar w-full"
+          >
+            {games.map((game) => (
+              <div key={game.id} className="min-w-[180px] flex-shrink-0">
+                <LiveGameCard
+                  name={game.title}
+                  image={game.thumbnail}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </PageContainer>
   );

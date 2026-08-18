@@ -421,30 +421,33 @@ export default function AccountModal() {
 
       <Modal
         title="ব্যক্তিগত তথ্য"
-        closable={{ 'aria-label': 'Custom Close Button' }}
         open={isModalOpen}
         onCancel={handleCancel}
         footer={null}
+        centered
+        zIndex={9999}
       >
         <EditProfile />
       </Modal>
 
       <Modal
         title="ই-ওয়ালেট বাঁধুন"
-        closable={{ 'aria-label': 'Custom Close Button' }}
         open={isModalOpen2}
         onCancel={handleCancel2}
         footer={null}
+        centered
+        zIndex={9999}
       >
         <Ewallet />
       </Modal>
 
       <Modal
         title="লেনদেন পাসওয়ার্ড"
-        closable={{ 'aria-label': 'Custom Close Button' }}
         open={isModalOpen3}
         onCancel={handleCancel3}
         footer={null}
+        centered
+        zIndex={9999}
       >
         <SetPassword />
       </Modal>

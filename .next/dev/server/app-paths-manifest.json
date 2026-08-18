@@ -1,7 +1,15 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/admin/page": "app/admin/page.js",
-  "/hgzy-game/win-go/page": "app/hgzy-game/win-go/page.js",
+  "/admin/payouts/page": "app/admin/payouts/page.js",
+  "/admin/transactions/page": "app/admin/transactions/page.js",
+  "/download/page": "app/download/page.js",
+  "/elott/page": "app/elott/page.js",
+  "/esports/page": "app/esports/page.js",
+  "/fish/page": "app/fish/page.js",
   "/hot/page": "app/hot/page.js",
-  "/page": "app/page.js"
+  "/language/page": "app/language/page.js",
+  "/live/page": "app/live/page.js",
+  "/page": "app/page.js",
+  "/pvp/page": "app/pvp/page.js"
 }

@@ -29,6 +29,8 @@ export default function DepositModal() {
   const [loading, setLoading] = useState(false);
   const [userLoading, setUserLoading] = useState(true);
 
+  
+
   // ==========================================
   // Get Logged-in User's userID
   // users/{Firebase UID} -> userID
@@ -266,35 +268,38 @@ export default function DepositModal() {
             onSubmit={handleSubmit}
             className="space-y-5"
           >
+
             {/* Bank */}
             <div>
               <label className="block text-sm font-semibold text-gray-200 mb-2">
                 Select Bank
               </label>
 
-              <Select
-                value={bank || undefined}
-                onChange={setBank}
-                placeholder="Select payment bank"
-                size="large"
-                className="w-full bg-[#01cece] border border-white text-white placeholder:text-white"
+              <select
+                value={bank}
+                onChange={(e) => setBank(e.target.value)}
+                className="w-full h-10 px-3 bg-[#01cece] border border-white rounded-lg text-white outline-none cursor-pointer"
               >
-                <Option value="bkash">
+                <option value="" disabled className="text-black">
+                  Select payment bank
+                </option>
+
+                <option value="bkash" className="text-black">
                   bKash
-                </Option>
+                </option>
 
-                <Option value="nagad">
+                <option value="nagad" className="text-black">
                   Nagad
-                </Option>
+                </option>
 
-                <Option value="rocket">
+                <option value="rocket" className="text-black">
                   Rocket
-                </Option>
+                </option>
 
-                <Option value="upay">
+                <option value="upay" className="text-black">
                   Upay
-                </Option>
-              </Select>
+                </option>
+              </select>
             </div>
 
             {/* Method */}
@@ -303,26 +308,29 @@ export default function DepositModal() {
                 Payment Method
               </label>
 
-              <Select
-                value={method || undefined}
-                onChange={setMethod}
-                placeholder="Select payment method"
-                size="large"
-                className="w-full bg-[#01cece] border border-white text-white placeholder:text-white"
+              <select
+                value={method}
+                onChange={(e) => setMethod(e.target.value)}
+                className="w-full h-10 px-3 bg-[#01cece] border border-white rounded-lg text-white outline-none cursor-pointer"
               >
-                <Option value="send_money">
+                <option value="" disabled className="text-black">
+                  Select payment method
+                </option>
+
+                <option value="send_money" className="text-black">
                   Send Money
-                </Option>
+                </option>
 
-                <Option value="cash_out">
+                <option value="cash_out" className="text-black">
                   Cash Out
-                </Option>
+                </option>
 
-                <Option value="payment">
+                <option value="payment" className="text-black">
                   Payment
-                </Option>
-              </Select>
+                </option>
+              </select>
             </div>
+
 
             {/* Amount */}
             <div>

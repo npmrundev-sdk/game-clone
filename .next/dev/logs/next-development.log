@@ -1,91 +1,364 @@
-[00:00:07.670] Server  WARN    ⚠ "Found lockfile missing swc dependencies," "patching..."
-[00:00:09.718] Server  LOG     ✓ Ready in 7.5s
-[00:00:15.998] Server  WARN    ⚠ Lockfile was successfully patched, please run "npm install" to ensure @next/swc dependencies are downloaded
-[00:00:27.360] Server  LOG     ○ Compiling / ...
-[00:00:36.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:39.041] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+[00:00:07.890] Server  WARN    ⚠ "Found lockfile missing swc dependencies," "patching..."
+[00:00:10.893] Server  LOG     ✓ Ready in 9.2s
+[00:00:12.225] Server  WARN    ⚠ Lockfile was successfully patched, please run "npm install" to ensure @next/swc dependencies are downloaded
+[00:00:13.922] Server  LOG     ○ Compiling / ...
+[00:00:21.622] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.676] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
 Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
-[00:00:40.637] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:40.637] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:40.637] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:41.399] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:00.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:01.051] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+[00:00:23.815] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.815] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.815] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:24.144] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:48.587] Browser ERROR   Warning: [antd: Notification] `message` is deprecated. Please use `title` instead.
+[00:01:10.379] Server  LOG     ✓ Compiled in 1685ms
+[00:01:41.781] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:01:53.138] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:02:00.154] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:03:10.279] Server  LOG     ✓ Compiled in 731ms
+[00:03:35.140] Server  LOG     ○ Compiling /esports ...
+[00:03:39.082] Server  ERROR   ⨯ ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:39.084] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:03:39.227] Browser ERROR   ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.580] Browser ERROR   ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:41.007] Browser ERROR   ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:42.499] Browser ERROR   ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:42.633] Server  ERROR   ⨯ ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:42.636] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:03:43.105] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:03:43.120] Browser ERROR   uncaughtError: Error: ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:43.263] Browser ERROR   ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:43.369] Browser ERROR   ./src/app/esports/page.jsx:7:1
+Module not found: Can't resolve '@/components/cards/LiveGameCard'
+   5 | import React, { useRef } from "react";
+   6 | import Link from "next/link";
+>  7 | import LiveGameCard from "@/components/cards/LiveGameCard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ChevronLeft, ChevronRight } from "lucide-react";
+   9 | import { PageContainer } from "@/components/shared/PageContainer";
+  10 |
+
+Import map: aliased to relative './src/components/cards/LiveGameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/esports/page.jsx [Client Component Browser]
+    ./src/app/esports/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/esports/page.jsx [Client Component SSR]
+    ./src/app/esports/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:37.030] Server  LOG     ✓ Compiled in 1896ms
+[00:04:40.377] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:04:40.424] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:41.336] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:41.336] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:41.336] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:41.336] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:41.336] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:41.336] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:41.336] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
 Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
-[00:01:04.851] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:04.851] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:04.852] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:05.040] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:24.583] Browser ERROR   Warning: [antd: Notification] `message` is deprecated. Please use `title` instead.
-[00:02:36.568] Server  LOG     ○ Compiling /hot ...
-[00:04:17.037] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:17.804] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.336] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:41.573] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:49.246] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
-                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
--                           data-new-gr-c-s-check-loaded="14.1320.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[00:04:17.804] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+[00:04:49.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:49.719] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:49.719] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:49.719] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:49.719] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:49.719] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:49.719] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:49.719] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
 Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
-[00:04:18.149] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:18.149] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:18.149] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:18.237] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:01.179] Server  LOG     ✓ Compiled in 1498ms
-[00:06:03.698] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.719] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:49.873] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:55.250] Server  LOG     ✓ Finished filesystem cache database compaction in 13.2s
+[00:04:56.327] Server  LOG     ✓ Finished writing to filesystem cache in 12.2s
+[00:05:12.335] Server  LOG     ✓ Compiled in 420ms
+[00:05:14.518] Browser WARN    Image with src "/_next/static/media/img1.d88e75bd.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:38.414] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -96,7 +369,7 @@ Import trace:
     ./src/app/hot/page.jsx [Server Component]
 
 
-[00:09:00.371] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+[00:05:45.127] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -107,7 +380,105 @@ Import trace:
     ./src/app/hot/page.jsx [Server Component]
 
 
-[00:09:04.059] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+[00:06:43.110] Server  LOG     ✓ Compiled in 3.2s
+[00:07:30.269] Server  LOG     ✓ Finished filesystem cache database compaction in 15.2s
+[00:08:55.363] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:08:55.364] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:08:55.365] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:56.350] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.350] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.350] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.350] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.350] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.350] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.350] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:08:56.351] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:11.913] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:09:11.913] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:09:11.914] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:09:14.392] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -118,15 +489,255 @@ Import trace:
     ./src/app/hot/page.jsx [Server Component]
 
 
-[00:09:04.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:07.923] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
-Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":false,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
-[00:11:51.845] Server  LOG     ✓ Compiled in 1540ms
-[00:11:53.133] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:19.928] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:13:19.928] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:13:19.928] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:13:21.626] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+[00:09:14.392] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:09:14.394] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:09:14.394] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:09:14.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:15.212] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:09:15.212] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.213] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:15.291] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:16.418] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:16.418] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:16.418] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:16.418] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:16.418] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:16.418] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:16.418] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:17.496] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.320] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.987] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.987] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.987] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.987] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.987] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.987] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:24.189] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:26.333] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:27.953] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:53.710] Server  LOG     ✓ Compiled in 449ms
+[00:11:30.755] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -137,3 +748,489 @@ Import trace:
     ./src/app/hot/page.jsx [Server Component]
 
 
+[00:11:44.828] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:11:44.828] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:11:44.829] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:12:03.960] Server  LOG     ✓ Finished filesystem cache database compaction in 17.7s
+[00:12:05.608] Server  LOG     ✓ Finished writing to filesystem cache in 11.0s
+[00:13:42.095] Browser ERROR   Login error: {"code":"auth/invalid-credential","customData":{},"name":"FirebaseError"}
+[00:13:42.095] Browser ERROR   Warning: [antd: Notification] `message` is deprecated. Please use `title` instead.
+[00:13:56.157] Server  LOG     ○ Compiling /admin ...
+[00:14:13.853] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:14:13.854] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:14:13.854] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:14:13.858] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:14:13.878] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:15.096] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:14:15.096] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:14:15.096] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:14:15.096] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:14:15.096] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:39.015] Browser ERROR   Warning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[00:15:02.674] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:15:02.675] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:15:02.675] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:15:02.675] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:15:02.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:03.561] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:15:15.300] Server  LOG     ○ Compiling /admin/transactions ...
+[00:15:40.424] Server  LOG     ✓ Finished filesystem cache database compaction in 17.5s
+[00:15:42.415] Server  LOG     ✓ Finished writing to filesystem cache in 13.3s
+[00:15:55.137] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:15:55.137] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:15:55.137] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:15:55.137] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:15:55.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:55.945] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10156:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:15:56.320] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:56.320] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:56.320] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:56.320] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:42.245] Browser ERROR   Warning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[00:19:21.984] Server  LOG     ✓ Compiled in 4s
+[00:22:01.406] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:22:01.406] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:22:01.406] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:22:01.406] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:22:01.434] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:03.233] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10157:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:22:04.054] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:04.054] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:04.054] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:04.232] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:07.625] Server  LOG     ✓ Compiled in 488ms
+[00:22:11.196] Browser ERROR   Warning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[00:23:55.301] Server  LOG     ✓ Compiled in 1287ms
+[00:23:56.084] Browser ERROR   Warning: [antd: Select] `popupClassName` is deprecated. Please use `classNames.popup.root` instead.
+[00:23:56.572] Server  LOG     ✓ Compiled in 307ms
+[00:24:59.146] Server  LOG     ✓ Compiled in 1264ms
+[00:25:00.027] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. zIndexPopup zindexpopup
+[00:25:06.795] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:25:06.795] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:25:06.795] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:25:06.795] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:25:06.815] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:08.704] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10163:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:25:08.704] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:25:08.704] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:25:08.704] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:25:08.704] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:09.497] Browser ERROR   Warning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[00:25:09.497] Browser ERROR   Warning: [antd: Select] `popupClassName` is deprecated. Please use `classNames.popup.root` instead.
+[00:25:09.497] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. zIndexPopup zindexpopup
+[00:26:13.188] Server  LOG     ✓ Compiled in 1327ms
+[00:26:18.502] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:26:18.502] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:26:18.502] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:26:18.503] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[00:26:18.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:19.515] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10163:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:26:19.515] Browser WARN    Image with src "/_next/static/media/Win Go.d285ba05.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:19.515] Browser WARN    Image with src "/_next/static/media/K3.b9c9e50c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:19.515] Browser WARN    Image with src "/_next/static/media/Trx Win.5183158a.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:19.596] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:26:21.135] Browser ERROR   Warning: [antd: Card] `bordered` is deprecated. Please use `variant` instead.
+[00:26:21.135] Browser ERROR   Warning: [antd: Select] `popupClassName` is deprecated. Please use `classNames.popup.root` instead.
+[00:26:21.135] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. zIndexPopup zindexpopup
+[00:26:46.059] Server  LOG     ✓ Compiled in 635ms
+[00:27:29.041] Server  LOG     ✓ Compiled in 474ms
+[00:28:09.383] Server  LOG     ✓ Compiled in 450ms
+[00:29:32.291] Server  LOG     ✓ Compiled in 3.8s
+[00:29:33.317] Server  LOG     ✓ Compiled in 737ms
+[00:29:35.531] Browser ERROR   ./src/components/modals/ProfileModals/DepositModal.jsx:32:10
+Ecmascript file had an error
+  30 |   const [userLoading, setUserLoading] = useState(true);
+  31 |
+> 32 |   const [bank, setBank] = useState("");
+     |          ^^^^
+  33 | const [method, setMethod] = useState("");
+  34 |
+  35 |   // ==========================================
+
+the name `bank` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component Browser]
+    ./src/components/modals/ModalRoot.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component SSR]
+    ./src/components/modals/ModalRoot.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+[00:29:35.532] Browser ERROR   ./src/components/modals/ProfileModals/DepositModal.jsx:33:8
+Ecmascript file had an error
+  31 |
+  32 |   const [bank, setBank] = useState("");
+> 33 | const [method, setMethod] = useState("");
+     |        ^^^^^^
+  34 |
+  35 |   // ==========================================
+  36 |   // Get Logged-in User's userID
+
+the name `method` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component Browser]
+    ./src/components/modals/ModalRoot.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component SSR]
+    ./src/components/modals/ModalRoot.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+[00:29:35.532] Browser ERROR   ./src/components/modals/ProfileModals/DepositModal.jsx:32:16
+Ecmascript file had an error
+  30 |   const [userLoading, setUserLoading] = useState(true);
+  31 |
+> 32 |   const [bank, setBank] = useState("");
+     |                ^^^^^^^
+  33 | const [method, setMethod] = useState("");
+  34 |
+  35 |   // ==========================================
+
+the name `setBank` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component Browser]
+    ./src/components/modals/ModalRoot.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component SSR]
+    ./src/components/modals/ModalRoot.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+[00:29:35.532] Browser ERROR   ./src/components/modals/ProfileModals/DepositModal.jsx:33:16
+Ecmascript file had an error
+  31 |
+  32 |   const [bank, setBank] = useState("");
+> 33 | const [method, setMethod] = useState("");
+     |                ^^^^^^^^^
+  34 |
+  35 |   // ==========================================
+  36 |   // Get Logged-in User's userID
+
+the name `setMethod` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component Browser]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component Browser]
+    ./src/components/modals/ModalRoot.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component Browser]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/modals/ProfileModals/DepositModal.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenter/DashboardContent.jsx [Client Component SSR]
+    ./src/components/modals/PersonalCenterModal.jsx [Client Component SSR]
+    ./src/components/modals/ModalRoot.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Client Component SSR]
+    ./src/components/shared/LayoutWrapper.jsx [Server Component]
+    ./src/app/layout.js [Server Component]
+[00:29:56.836] Browser ERROR   Warning: [antd: Notification] `message` is deprecated. Please use `title` instead.
