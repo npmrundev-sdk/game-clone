@@ -1234,3 +1234,50 @@ Import traces:
     ./src/components/shared/LayoutWrapper.jsx [Server Component]
     ./src/app/layout.js [Server Component]
 [00:29:56.836] Browser ERROR   Warning: [antd: Notification] `message` is deprecated. Please use `title` instead.
+[13:04:00.928] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[13:04:00.928] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing Ii.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing Ii.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[13:04:00.928] Server  WARN    ⚠ ./src/assets/Fishs/Dragon Fishing.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Dragon Fishing.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[13:04:00.929] Server  WARN    ⚠ ./src/assets/Fishs/Fortune King Jackpot.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Fishs/Fortune King Jackpot.avif
+    ./src/app/fish/page.jsx [Client Component SSR]
+    ./src/app/fish/page.jsx [Server Component]
+
+
+[13:04:01.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:04:10.527] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6103:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5053:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5070:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:5082:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules_1debe890._.js:6137:239)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_8ce95ef5._.js:10176:198)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":false,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
